@@ -14,7 +14,7 @@ import java.net.URL;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        String myurl = "https://api.nationalize.io/?name=nathaniel";
+        String myurl = "https://api.chucknorris.io/jokes/random";
 
         HttpURLConnection connection = null;
         int responseCode = 0;
